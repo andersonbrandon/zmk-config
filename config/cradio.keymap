@@ -60,7 +60,8 @@
             bindings = <&kp BKSP>;
         };
         
-        
+    };
+
     behaviors {
         gresc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
@@ -70,10 +71,7 @@
             mods = <MOD_RGUI>;
         };
     };
-        
-        
-    };
-
+     
         keymap {
                 compatible = "zmk,keymap";
                 
