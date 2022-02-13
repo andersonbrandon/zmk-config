@@ -79,7 +79,7 @@
             >;
         };
 
-        sym_layer {
+        left_layer {
             bindings = <
                 &kp EXCL &kp AT &kp HASH &kp SLASH &kp BSLH             &kp N1 &kp N2 &kp N3 &kp LPAR LBKT &kp RPAR RBKT
                 &kp DLLR &kp PRCNT &kp CARET &kp PLUS &kp MINUS         &kp N4 &kp N5 &kp N6 &kp LBRC &kp RBRC
@@ -88,7 +88,7 @@
             >;
         };
 
-        misc_layer {
+        right_layer {
             bindings = <
                 &trans &trans &trans &trans &trans                      &trans &trans &trans &trans &kp DEL
                 &trans &trans &trans &trans &trans                      &trans &trans &trans &trans &trans 
