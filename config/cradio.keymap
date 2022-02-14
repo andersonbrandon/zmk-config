@@ -83,7 +83,7 @@
              bindings = <
                  &kp F1 &kp F2    &kp F3    &kp SLASH &kp BSLH         &kp N1 &kp N2 &kp N3 &mt LPAR LBKT &mt RPAR RBKT
                  &kp F4 &kp F5    &kp F6    &kp PLUS  &kp MINUS        &kp N4 &kp N5 &kp N6 &kp LT &kp GT
-                 &trans &kp LCTRL &kp LALT  &kp UNDER &kp EQUAL        &kp N7 &kp N8 &kp N9 &kp UP &kp DOWN
+                 &trans &kp LCTRL &kp LALT  &kp UNDER &kp EQUAL        &kp N7 &kp N8 &kp N9 &kp TILDE &trans
                                                    &mo 1 &trans        &kp N0 &mo 2
              >;
          };
@@ -99,7 +99,7 @@
  
          tri_layer {
              bindings = <
-                 &kp BRI_UP &kp BRI_DN &trans &trans &trans              &trans &trans &kp C_VOL_DN &kp C_VOL_UP &kp DEL
+                 &kp C_BRI_UP &kp C_BRI_DN &trans &trans &trans          &trans &trans &kp C_VOL_DN &kp C_VOL_UP &kp DEL
                  &trans &trans &trans &trans &trans                      &trans &trans &trans &UP &trans 
                  &trans &trans &trans &trans &trans                      &trans &trans &kp LEFT &kp DOWN &kp RIGHT
                                  &trans &trans                           &trans &trans
