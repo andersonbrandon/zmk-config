@@ -73,7 +73,7 @@
          default_layer {
              bindings = <
                  &kp Q      &kp W &kp E &kp R &kp T              &kp Y &kp U &kp I &kp O &kp P
-                 &kp A      &kp S &kp D &kp F &kp G              &kp H &kp J &kp K &kp L &mt SQT QMARK
+                 &kp A      &kp S &kp D &kp F &kp G              &kp H &kp J &kp K &kp L &mt QMARK SQT
                  &mt LSFT Z &kp X &kp C &kp V &kp B              &kp N &kp M &mt SCLN CMMA &mt COLON DOT &mt RSFT RET
                                      &mo 1 &kp LGUI              &kp SPC &mo 2
              >;
@@ -99,9 +99,9 @@
  
          tri_layer {
              bindings = <
-                 &trans &trans &trans &trans &trans                      &trans &trans &kp C_VOL_DN &kp C_VOL_UP &kp DEL
-                 &trans &trans &trans &trans &trans                      &trans &trans &trans &trans &trans 
-                 &trans &trans &trans &trans &trans                      &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT
+                 &kp BRI_UP &kp BRI_DN &trans &trans &trans              &trans &trans &kp C_VOL_DN &kp C_VOL_UP &kp DEL
+                 &trans &trans &trans &trans &trans                      &trans &trans &trans &UP &trans 
+                 &trans &trans &trans &trans &trans                      &trans &trans &kp LEFT &kp DOWN &kp RIGHT
                                  &trans &trans                           &trans &trans
              >;
          };
