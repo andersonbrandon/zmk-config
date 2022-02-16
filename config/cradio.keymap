@@ -76,7 +76,7 @@
          combo_rshift { 
              timeout-ms = <50>;
              key-position = <28 29>;
-             bindings = <%kp RSFT>;
+             bindings = <&kp RSFT>;
          };
      };
       
