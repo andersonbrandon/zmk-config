@@ -24,36 +24,36 @@
              key-positions = <0 1>;
              bindings = <&kp ESC>;
          };
-         
-         combo_ctrl_c {
-            timeout-ms = <50>;
-            key-positions = <0 1 32>;
-            bindings = <&kp LC(C)>;
-         };
 
          combo_tab {
              timeout-ms = <50>;
              key-positions = <10 11>;
              bindings = <&kp TAB>;
          };
- 
-         combo_grave {
-             timeout-ms = <50>;
-             key-positions = <20 21>;
-             bindings = <&kp GRAVE>;
-         };
          
          combo_ralt {
-             timeout-ms = <50>;
-             key-positions = <17 16>;
-             bindings = <&kp RALT>;
-         };
-         
-         combo_lalt {
-             timeout-ms = <50>;
-             key-positions = <11 12>;
-             bindings = <&kp LALT>;
-         };
+            timeout-ms = <50>;
+            key-positions = <17 16>;
+            bindings = <&kp RALT>;
+        };
+        
+        combo_lalt {
+            timeout-ms = <50>;
+            key-positions = <11 12>;
+            bindings = <&kp LALT>;
+        };
+
+        combo_rctrl {
+            timeout-ms = <50>;
+            key-positions = <17 16>;
+            bindings = <&kp RCTRL>;
+        };
+        
+        combo_lctrl {
+            timeout-ms = <50>;
+            key-positions = <11 12>;
+            bindings = <&kp LCTRL>;
+        };
          
          combo_lgui {
              timeout-ms = <50>;
