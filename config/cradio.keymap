@@ -19,36 +19,35 @@
      combos {
          compatible = "zmk,combos";
 
-         combo_esc {
-             timeout-ms = <50>;
-             key-positions = <0 1>;
-             bindings = <&kp ESC>;
-         };
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&kp ESC>;
+        };
 
-         combo_tab {
-             timeout-ms = <50>;
-             key-positions = <10 11>;
-             bindings = <&kp TAB>;
-         };
+        combo_tab {
+            timeout-ms = <50>;
+            key-positions = <10 11>;
+            bindings = <&kp TAB>;
+        };
          
+         combo_lctrl {
+            timeout-ms = <50>;
+            key-positions = <11 12>;
+            bindings = <&kp LCTRL>;
+        };
         
         combo_lalt {
             timeout-ms = <50>;
-            key-positions = <11 12>;
+            key-positions = <12 13>;
             bindings = <&kp LALT>;
         };
-
-        combo_lctrl {
-            timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp LCTRL>;
-        };
          
-         combo_lgui {
-             timeout-ms = <50>;
-             key-positions = <13 14>;
-             bindings = <&kp LGUI>;
-         };
+        combo_lgui {
+            timeout-ms = <50>;
+            key-positions = <13 14>
+            bindings = <&kp LGUI>;
+        };
 
          combo_rgui {
             timeout-ms = <50>;
@@ -56,29 +55,29 @@
             bindings = <&kp RGUI>;
         };
 
-         combo_rctrl {
+         combo_ralt {
             timeout-ms = <50>;
             key-positions = <16 17>;
+            bindings = <&kp RALT>;
+        };
+
+        combo_rctrl {
+            timeout-ms = <50>;
+            key-positions = <17 18>;
             bindings = <&kp RCTRL>;
         };
 
-         combo_ralt {
+        combo_bksp {
             timeout-ms = <50>;
-            key-positions = <17 18>;
-            bindings = <&kp RALT>;
-        };
- 
-         combo_bksp {
-             timeout-ms = <50>;
-             key-positions = <18 19>;
-             bindings = <&kp BKSP>;
-         };  
+            key-positions = <18 19>;
+            bindings = <&kp BKSP>;
+        };  
          
-         combo_rshift { 
-             timeout-ms = <50>;
-             key-positions = <28 29>;
-             bindings = <&kp RSFT>;
-         };
+        combo_rshift { 
+            timeout-ms = <50>;
+            key-positions = <28 29>;
+            bindings = <&kp RSFT>;
+        };
      };
       
      keymap {
