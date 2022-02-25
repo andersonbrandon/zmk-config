@@ -117,7 +117,7 @@
  
          tri_layer {
              bindings = <
-                 &kp C_BRI_UP &kp C_BRI_DN &kp LGUI LSFT LC(N4) &trans &trans          &trans &trans &kp C_VOL_DN &kp C_VOL_UP &kp DEL
+                 &kp C_BRI_UP &kp C_BRI_DN &kp LG(LS(LC(N4))) &trans &trans          &trans &trans &kp C_VOL_DN &kp C_VOL_UP &kp DEL
                  &trans &trans &trans &trans &trans                      &trans &trans &trans &kp UP &kp RIGHT 
                  &trans &trans &trans &trans &trans                      &trans &trans &kp LEFT &kp DOWN &trans
                                  &trans &trans                           &trans &trans
