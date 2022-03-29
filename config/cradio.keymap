@@ -99,9 +99,9 @@
  
          left_layer {
              bindings = <
-                 &kp F1 &kp F2    &kp F3    &kp BSLH &kp SLASH         &kp N1 &kp N2 &kp N3 &mt LBKT LPAR &mt RBKT RPAR
-                 &kp F4 &kp F5    &kp F6    &kp PLUS  &kp MINUS        &kp N4 &kp N5 &kp N6 &kp LT &kp GT
-                 &trans &kp LCTRL &kp LALT  &kp UNDER &kp EQUAL        &kp N7 &kp N8 &kp N9 &kp TILDE &trans
+                 &kp F1 &kp F2    &kp F3    &kp BSLH  &kp SLASH        &kp N1 &kp N2 &kp N3 &mt LBKT LPAR &mt RBKT RPAR
+                 &kp F4 &kp F5    &kp F6    &kp MINUS &kp PLUS         &kp N4 &kp N5 &kp N6 &kp LT &kp GT
+                 &trans &kp TILDE &kp LALT  &kp UNDER &kp EQUAL        &kp N7 &kp N8 &kp N9 &trans &trans
                                                    &mo 1 &trans        &kp N0 &mo 2
              >;
          };
