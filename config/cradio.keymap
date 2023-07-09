@@ -288,7 +288,7 @@
      */
     layer_3 {
       bindings = <
-        &kp LC(LG(Q))  &none      &none     &none      &none            &kp C_COL_UP  &kp C_PLAY    &kp C_PREV    &kp C_NEXT    &kp C_MUTE
+        &kp LC(LG(Q))  &none      &none     &none      &none            &kp C_VOL_UP  &kp C_PLAY    &kp C_PREV    &kp C_NEXT    &kp C_MUTE
         &kp LG(LS(X))  &sk LSHFT  &sk LCMD  &sk LCTRL  &none            &kp C_VOL_DN  &kp LC(N1)    &kp LC(N2)    &kp LC(N3)    &kp LC(N4)
         &none          &none      &none     &sk LALT   &none            &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR
                                             &kp BSPC   &kp LSHFT        &kp SPACE     &to L0
