@@ -244,11 +244,17 @@
      * Alternative backspace conbo
      */
     combo_bksp {
-      timeout-ms = <50>;
+      timeout-ms = <20>;
       key-positions = <18 19>;
       bindings = <&kp BKSP>;
       layers = <0>;
-    };  
+    };
+
+    l_alt_key {
+      timeout-ms = <20>;
+      key-positions = <12 13>;
+      bindings = <&kp LALT>;
+    };
   };
 
   keymap {
@@ -259,9 +265,9 @@
      */
     layer_0 {
       bindings = <
-        &kp Q         &kp W       &kp E        &kp R         &kp T           &kp Y       &kp U         &kp I        &kp O       &kp P
-        &lhr LALT A   &lhrl L2 S  &lhr LCMD D  &lhr LCTRL F  &kp G           &kp H       &rhr LCTRL J  &rhr LCMD K  &rhrl L2 L  &kp SQT
-        &kp Z         &kp X       &kp C        &kp V         &kp B           &kp N       &kp M         &kp COMMA    &kp DOT     &kp SLASH
+        &kp Q            &kp W       &kp E        &kp R         &kp T           &kp Y       &kp U         &kp I        &kp O       &kp P
+        &kp A            &lhrl L2 S  &lhr LCMD D  &lhr LCTRL F  &kp G           &kp H       &rhr LCTRL J  &rhr LCMD K  &rhrl L2 L  &kp SQT
+        &lhr LSHIFT Z    &kp X       &kp C        &kp V         &kp B           &kp N       &kp M         &kp COMMA    &kp DOT     &kp SLASH
                                           &kp LSHIFT      &kp LCMD           &kp SPACE   &mo L1
       >;
     };
