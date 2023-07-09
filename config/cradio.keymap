@@ -210,7 +210,7 @@
       timeout-ms = <20>;
       key-positions = <0 1>;
       bindings = <&kp ESC>;
-      layers = <0 2>;
+      //layers = <0 2>;
     };
 
     /**
@@ -271,9 +271,9 @@
      */
     layer_1 {
       bindings = <
-        &kp EXCL  &kp AT     &kp HASH   &kp DOLLAR  &kp LBKT       &td_bkt  &kp PLUS   &kp MINUS  &kp ASTRK  &kp PRCNT
-        &kp AMPS  &kp UNDER  &kp DQT    &kp SQT     &kp LPAR       &td_par  &kp ENTER  &to L2     &to L3     &kp SEMI
-        &kp PIPE  &kp TILDE  &kp CARET  &kp GRAVE   &kp LBRC       &td_brc  &td_equal  &kp COMMA  &kp DOT    &td_slash
+        &kp EXCL          &kp AT     &kp HASH   &kp DOLLAR  &kp LBKT       &td_bkt  &kp PLUS   &kp MINUS  &kp ASTRK  &kp PRCNT
+        &kp AMPS          &kp UNDER  &kp DQT    &kp SQT     &kp LPAR       &td_par  &kp ENTER  &to L2     &to L3     &kp SEMI
+        &lhr LSHIFT PIPE  &kp TILDE  &kp CARET  &kp GRAVE   &kp LBRC       &td_brc  &td_equal  &kp COMMA  &kp DOT    &td_slash
                                      &kp LSHIFT      &kp LCMD      &kp SPACE        &none
       >;
     };
